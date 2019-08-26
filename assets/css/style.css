@@ -1,12 +1,13 @@
-body{
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-  background: url(../images/beige-tiles.png);
-        
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: url(../images/beige-tiles.png);
+
 }
-.container1{
-    background-color:rgba(88, 46, 143, 0.973);
-    margin-right:75%;
-    margin-left: 5px;
+
+.container1 {
+    background-color: rgba(88, 46, 143, 0.973);
+    margin-right: 75%;
+    margin-left: 2em;
     margin-top: 5px;
     padding-top: 1.5em;
     padding-bottom: 1.5em;
@@ -14,26 +15,31 @@ body{
     font-weight: 700;
     font-size: 1.5em;
     color: white;
+    border-radius: 18px;
 
 }
-.container2{
+
+.container2 {
     background-color: rgb(252, 197, 206);
     line-height: 40px;
     font-size: 20px;
     color: rgb(31, 2, 58);
     margin-right: 50%;
-    margin-left: 5px;
+    margin-left: 2em;
     margin-top: 5px;
     margin-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
+    border-radius: 18px;
+
+
 
 }
-.container3,.container4,.container6{
-    margin-right:75%;
-    margin-left: 5px;
+
+.container3,
+.container4,
+.container6 {
+    margin-right: 75%;
+    margin-left: 2em;
     margin-top: 5px;
     margin-bottom: 5px;
     background-color: rgb(173, 178, 247);
@@ -41,12 +47,27 @@ body{
     padding-right: 10px;
     padding-top: 1em;
     padding-bottom: 1em;
-   
+    border-radius: 18px;
+
+
 }
-.container5{
-    margin-left: 5px;
+
+.container5 {
+    margin-left: 2em;
 }
-.container6{
+
+.container6 {
     background-color: rgb(17, 190, 233);
     padding-bottom: 3em;
+}
+
+.crystal-image {
+    border-radius: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+
+}
+
+.crystal-image:hover {
+    border-color: blueviolet;
 }
